@@ -1,0 +1,32 @@
+/* PHASE 8: Thumbs */
+.friends {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friends li {
+  width: 25%;
+  margin: 7px;
+  border: 1px solid black;
+  border-radius: 12%;
+  position: relative;
+}
+.friends strong {
+  display: none;
+  position: absolute;
+  top: -36px;
+  border: 1px solid black;
+  border-radius: 12%;
+}
+
+.mini {
+  background-color: white;
+}
+
+.friends li:hover strong {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+
+}
